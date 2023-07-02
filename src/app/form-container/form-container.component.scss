@@ -1,0 +1,18 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 2rem;
+  width: 46rem;
+  border: 1px solid #ccc;
+  border-radius: 0.1rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem rgba(0, 0, 0, 0.3);
+
+  .title {
+    margin-bottom: 2rem;
+  }
+
+  .content {
+    flex: 1;
+  }
+}
